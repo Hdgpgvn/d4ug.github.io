@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page-style.css">
+    
+    <title>Genius Inside You</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">GENIUS INSIDE YOU</div>
+        <div class="header-section">
+            <div class="header-section-part"><a href="index.html" class="header-section-butn">Trang chủ</a></div>
+            <div class="header-section-part"><a href="index.html#method" class="header-section-butn">Phương pháp</a></div>
+            <div class="header-section-part"><a href="index.html#connect" class="header-section-butn">Kết nối</a></div>
+        </div>
+    </div>
+    
+    <div class="body">
+        <div class="return"><a href="method-list.html" class="return-btn"> &lt; Các phương pháp </a></div>
+        <div class="main">
+            <div class="main-header"><h3>Phương pháp Pomodoro</h3></div>
+            <div class="main-body">
+                <p><b>Phương pháp Pomodoro</b> là một kỹ thuật quản lý thời gian giúp tăng cường sự tập trung và hiệu suất. Đây là cách thức cơ bản:
+
+                    <br>1.<i><u>Đặt mục tiêu công việc</u></i>: Chọn một công việc cụ thể bạn muốn hoàn thành.
+                    <br>2.<i><u>Đặt hẹn với thời gian</u></i>: Đặt đồng hồ hẹn giờ (Pomodoro) trong 25 phút và cam kết tập trung hoàn toàn vào công việc cho đến khi hẹn giờ kết thúc.
+                    <br>3.<i><u>Nghỉ ngơi</u></i>: Sau mỗi chu kỳ Pomodoro, nghỉ ngơi ngắn, khoảng 5 phút.
+                    <br>4.<i><u>Lặp lại</u></i>: Lặp lại chu kỳ trên sau mỗi 25 phút làm việc và 5 phút nghỉ ngơi. Sau mỗi bốn chu kỳ, nghỉ nghỉ lâu hơn, khoảng 15-30 phút.
+                    <br>5.<i><u>Ghi chú công việc đã hoàn thành</u></i>: Khi hoàn thành một nhiệm vụ, đánh dấu hoặc ghi chú lại. Điều này giúp theo dõi tiến triển.
+                    <br><strong>Lưu ý</strong>: Pomodoro không chỉ giúp tăng cường sự tập trung mà còn giúp người thực hiện nhiệm vụ duy trì năng lượng và tránh cảm giác mệt mỏi.
+                </p>
+            </div>
+            <div class="try">
+                <div class="main-header"><h3>Đồng hồ Pomodoro</h3></div>
+                <div class="display-holder">
+                    <div class="display" id="display"><p id="time-display">00:00</p></div>
+                    <div class="input-field">
+                        <form>
+                            <label>Số phút làm</label>
+                            <input type="number" id="minute-do" value=25 class="input"><br>
+                            <label>Số phút nghỉ</label>
+                            <input type="number" id="minute-rest" value=5 class="input"><br>
+                            <label>Số lần</label>
+                            <input type="number" id="time" value=2 class="input">
+                            
+                        </form>
+                    </div>
+                    <div class="time-btn"><button id="time-butn">Bắt đầu</button><button id="reset-butn">Làm lại</button></div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="opinion"></div>
+    </div>
+    
+</body>
+<script src="pomodoro-code.js"></script>
+</html>

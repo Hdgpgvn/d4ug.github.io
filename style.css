@@ -1,0 +1,253 @@
+html {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    height: 15vh;
+    left: 0;
+    z-index: 10;
+    border-bottom: outset;
+}
+
+.logo {
+    font-size: 14;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+}
+
+.header-section {
+    /* padding-top: 20px; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.header-section-part {
+    padding: 0 20px;
+}
+
+.header-section-butn {
+    color:black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.body {
+    /* width: 100vw; */
+    position: absolute;
+    left:0;
+    height: auto;
+}
+
+.home {
+    height: 100vh;
+    background-color:gray;
+    padding-top: 15vh; 
+    top: 0;
+    left:0;
+    background-image: url("lib.jpg");
+}
+
+.home-text {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.home > h1 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.home > h5 {
+    text-align: center;
+}
+
+.home > h2 {
+    text-align: center;
+    padding: 40px;
+}
+
+.home > p {
+    text-align: center;
+    padding: 40px;
+}
+.method {
+    height: auto;
+    padding-top:15vh;
+    background-color:  rgb(121, 121, 121);
+    left:0;
+}
+
+.method-header {
+    
+    text-align: center;
+}
+
+
+
+
+
+
+
+    
+    .method-container {
+        position: relative;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 25% 25% 25%;
+        column-gap: 1%;
+        height: auto;
+        padding-bottom: 10px;
+        /* padding-left: 20px; */
+    }
+    .description {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 4vh;
+        text-align: justify;
+        height: 30vw;
+
+    }
+    .name {
+        text-align: center;
+    }
+    
+    
+.butn {
+    /* position: inherit; */
+    display: block;
+    
+    padding: 1vh 1vw;
+    position:absolute;
+    bottom: 2vh;
+    
+}
+    
+    
+
+.method-part {
+    word-break: break-word;
+    border-style:groove;
+    
+}
+
+@media only screen and (max-width: 768px){
+    .method-container {
+        display: block;
+        position: relative;
+    }
+    .method-part {
+        position: relative;
+        width:80vw;
+        margin: 2vh 10vw;
+        height: auto;
+    }
+    .description {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 4vh;
+        text-align: justify;
+        height: 40vh;
+    }
+    .butn {
+        
+        display: block;
+        
+        padding: 1vh 1vw;
+        position: absolute;
+        bottom: 1vh;
+        
+    }
+}
+
+
+
+.butn-part:hover {
+    background-color: #575757;
+    cursor:pointer;
+}
+
+.butn-part  {
+    background-color: #000000;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.another-butn-part {
+    background-color: #000000;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.another-butn {
+    display: grid;
+    justify-content: center;
+    padding-top:2vh;
+}
+.another-butn-part:hover {
+    background-color: #575757;
+    cursor:pointer;
+}
+.connect {
+    padding-top:15vh;
+    height: 100vh;
+    background-color: gray;
+    background-image: url("connect.jpg");
+    
+}
+.connect-header {
+    text-align: center;
+}
+.link-header {
+    text-align: center;
+    
+}
+.link-description {
+    text-shadow: 2px 2px 4px rgb(211, 211, 211);
+}
+.connect-link {
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 0 10px;
+    border-style:solid;
+    position: relative;
+    top: 0.2vh;
+}
+.connect-link:hover {
+    background-color: rgb(111, 111, 111);
+}
+
+.connect-holder {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30%;
+    column-gap: 1%;
+    height: auto;
+    padding-bottom: 10px;
+}
+.connect-part {
+    word-break: break-word;
+    border-style:groove;
+    text-align: justify;
+    padding: 1vh;
+}
+
